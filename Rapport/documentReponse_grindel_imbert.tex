@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{classeRapport}
+\usepackage{tikz}
+\usepackage{algorithmeUTF8}
+
+\setlength{\headheight}{13.59999pt}
+
+\begin{document}
+
+\PageDeGarde	
+{rien.png} % image sur la page de garde
+{Recherche opérationel - TP} % titre principal
+{Balade en ville} % sous-titre
+{Alexis \textsc{Imbert}\\
+ Brice \textsc{Grindel}} % nom
+{RO - ITI - 2022-2023} % bas de page
+
+\Page{INSALogo}{rien.png} % logo de bas de page (en bas a droite)
+
+
+\tableofcontents
+\newpage
+\section{Etape 1 : Modéliser, définir le problème formel, associer une classe de complexité}
+\begin{itemize}
+    \item 
+    \begin{itemize}
+        \item On propose de représenter par le graphe 
+        \begin{itemize}
+            \item Les noeuds représenteront les intersections, les addresses et les arrêts de métros.
+            \item Les arrêtes représenteront les portions de route ou entre 2 stations de métros.
+        \end{itemize}
+        Si le métro est proche de d'un intersection on peut faire l'approximation que c'est le même noeud.
+
+        Pour simplifier le graphe : on peut extraire un graphe de distance géodésique entre les adresses tel que : 
+        \begin{itemize}
+            \item Les noeuds représenteront les addresses
+            \item Les arrêtes représenteront les chemins reliant ces addresses.
+        \end{itemize}
+        \item Le graphe est non orienté. Pour le passage d'addresse en paramètre on peut passer les arrêtes sur lesquels sont ces arrêtes.
+        \item Représentation sagitale :
+    \end{itemize}
+    \item On a deux problèmes formel sous jacents.
+    \begin{itemize}
+        \item La recherche de plus cours chemin
+        \item La recherche d'un cycle hamiltonien
+    \end{itemize}
+    Ce problème peut se ramener au problème du voyageur de commerce.
+    \item Le problème du voyageur de commerce fait parti des problèmes NP-complet. C'est à dire que la résolution de ce type de problème est exponentiel.
+    Toutefois nous ne sommes pas obliger d'abandonner tout de suite car ici le graphe est assez petit : seulement 5 addresses à parcourir.
+
+    Le problème de plus court chemin peut etre résolu par l'algorithme de Dijkstra qui a une résolution polynomiale.
+\end{itemize}
+\section{Etape 2 : l'algoritme}
+\paragraph{Etat de l'art}
+\url{https://www.datavis.fr/playing/salesman-problem}
+
+Une première solution est le brut force : énumération de tout les chemins possible et choix du plus cours. 
+\paragraph{Algorithme}
+
+\section{Etape 3 : L'implémentation}
+\section{Etape 4 : L'adaptation}
+\end{document}
