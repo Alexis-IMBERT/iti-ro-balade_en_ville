@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.13)  19 OCT 2022 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.13)  30 OCT 2022 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/alexis/Documents/Nuage-INSA/Cours/S7/RO-TheorieDesGraphe_RechercheOperationnel/TP/TP02/Rapport/documentReponse_grindel_imbert.tex
-(/home/alexis/Documents/Nuage-INSA/Cours/S7/RO-TheorieDesGraphe_RechercheOperationnel/TP/TP02/Rapport/documentReponse_grindel_imbert.tex
+**/home/alexis/Documents/git/iti-ro-balade_en_ville/Rapport/documentReponse_grindel_imbert.tex
+(/home/alexis/Documents/git/iti-ro-balade_en_ville/Rapport/documentReponse_grindel_imbert.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -483,77 +483,128 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@expandcount=\count315
  (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (./algorithmeUTF8.sty
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks37
+\t@pgfplots@tokb=\toks38
+\t@pgfplots@tokc=\toks39
+\pgfplots@tmpa=\dimen275
+\c@pgfplots@coordindex=\count316
+\c@pgfplots@scanlineindex=\count317
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count318
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count319
+\t@pgfplotstable@a=\toks40
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count320
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen276
+\pgfdecoratedremainingdistance=\dimen277
+\pgfdecoratedinputsegmentcompleteddistance=\dimen278
+\pgfdecoratedinputsegmentremainingdistance=\dimen279
+\pgf@decorate@distancetomove=\dimen280
+\pgf@decorate@repeatstate=\count321
+\pgfdecorationsegmentamplitude=\dimen281
+\pgfdecorationsegmentlength=\dimen282
+)
+\tikz@lib@dec@box=\box65
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count322
+\pgfplots@xmin@reg=\dimen283
+\pgfplots@xmax@reg=\dimen284
+\pgfplots@ymin@reg=\dimen285
+\pgfplots@ymax@reg=\dimen286
+\pgfplots@zmin@reg=\dimen287
+\pgfplots@zmax@reg=\dimen288
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (./algorithmeUTF8.sty
 Package: algorithmeUTF8 2002/12/22 package algorithme
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count316
-\calc@Bcount=\count317
-\calc@Adimen=\dimen275
-\calc@Bdimen=\dimen276
+\calc@Acount=\count323
+\calc@Bcount=\count324
+\calc@Adimen=\dimen289
+\calc@Bdimen=\dimen290
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count318
+\calc@Ccount=\count325
 \calc@Cskip=\skip62
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks37
+\@emptytoks=\toks41
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen291
+))
+\mycount=\count326
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box65
+\l__color_backend_stack_int=\count327
+\l__pdf_internal_box=\box66
 ) (./documentReponse_grindel_imbert.aux)
 \openout1 = `documentReponse_grindel_imbert.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Info: Redefining \degres on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Info: Redefining \degres on input line 19.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 9.
+(french.ldf)             reported on input line 19.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 9.
-LaTeX Info: Redefining \up on input line 9.
+(french.ldf)             reported on input line 19.
+LaTeX Info: Redefining \up on input line 19.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen277
-\scratchbox=\box66
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen278
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count328
+\scratchdimen=\dimen292
+\scratchbox=\box67
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen293
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -594,67 +645,73 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count326
-Package hyperref Info: Link coloring OFF on input line 9.
+\c@lstlisting=\count334
+Package hyperref Info: Link coloring OFF on input line 19.
 (./documentReponse_grindel_imbert.out) (./documentReponse_grindel_imbert.out)
 \@outlinefile=\write4
 \openout4 = `documentReponse_grindel_imbert.out'.
 
+
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
+
 <images/rien.png, id=23, 597.23125pt x 597.23125pt>
 File: images/rien.png Graphic file (type png)
 <use images/rien.png>
-Package pdftex.def Info: images/rien.png  used on input line 17.
+Package pdftex.def Info: images/rien.png  used on input line 27.
 (pdftex.def)             Requested size: 459.51054pt x 459.51407pt.
 <images/INSALogo.pdf, id=24, 682.55pt x 174.6525pt>
 File: images/INSALogo.pdf Graphic file (type pdf)
 <use images/INSALogo.pdf>
-Package pdftex.def Info: images/INSALogo.pdf  used on input line 17.
+Package pdftex.def Info: images/INSALogo.pdf  used on input line 27.
 (pdftex.def)             Requested size: 284.52756pt x 72.80722pt.
 Package epstopdf Info: Source file: <images/Volutes1.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 3343 bytes
 (epstopdf)             Output file: <images/Volutes1-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2840 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Volutes1-eps-converted-to.pdf images/Volutes1.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 <images/Volutes1-eps-converted-to.pdf, id=25, 534.99875pt x 253.94875pt>
 File: images/Volutes1-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Volutes1-eps-converted-to.pdf>
-Package pdftex.def Info: images/Volutes1-eps-converted-to.pdf  used on input line 17.
+Package pdftex.def Info: images/Volutes1-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 853.58267pt x 405.21417pt.
 Package epstopdf Info: Source file: <images/Volutes1Top.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2356 bytes
 (epstopdf)             Output file: <images/Volutes1Top-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2413 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Volutes1Top-eps-converted-to.pdf images/Volutes1Top.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 <images/Volutes1Top-eps-converted-to.pdf, id=26, 531.9875pt x 79.29625pt>
 File: images/Volutes1Top-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Volutes1Top-eps-converted-to.pdf>
-Package pdftex.def Info: images/Volutes1Top-eps-converted-to.pdf  used on input line 17.
+Package pdftex.def Info: images/Volutes1Top-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.50787pt x 89.0701pt.
 
+Package xcolor Warning: Incompatible color definition on input line 27.
 
-Package xcolor Warning: Incompatible color definition on input line 17.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 
-Package xcolor Warning: Incompatible color definition on input line 17.
+Package xcolor Warning: Incompatible color definition on input line 27.
 
 
-Package xcolor Warning: Incompatible color definition on input line 17.
+Package xcolor Warning: Incompatible color definition on input line 27.
 
 [1
 
@@ -663,114 +720,173 @@ Package xcolor Warning: Incompatible color definition on input line 17.
 \openout5 = `documentReponse_grindel_imbert.toc'.
 
 Package epstopdf Info: Source file: <images/bandeau_cyan_top.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 3487 bytes
 (epstopdf)             Output file: <images/bandeau_cyan_top-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2966 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/bandeau_cyan_top-eps-converted-to.pdf images/bandeau_cyan_top.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 <images/bandeau_cyan_top-eps-converted-to.pdf, id=46, 983.675pt x 218.8175pt>
 File: images/bandeau_cyan_top-eps-converted-to.pdf Graphic file (type pdf)
 <use images/bandeau_cyan_top-eps-converted-to.pdf>
-Package pdftex.def Info: images/bandeau_cyan_top-eps-converted-to.pdf  used on input line 23.
+Package pdftex.def Info: images/bandeau_cyan_top-eps-converted-to.pdf  used on input line 33.
 (pdftex.def)             Requested size: 600.35315pt x 133.55193pt.
 <images/INSALogoBlanc.pdf, id=47, 656.70847pt x 171.91928pt>
 File: images/INSALogoBlanc.pdf Graphic file (type pdf)
 <use images/INSALogoBlanc.pdf>
-Package pdftex.def Info: images/INSALogoBlanc.pdf  used on input line 23.
+Package pdftex.def Info: images/INSALogoBlanc.pdf  used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 37.2426pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 23.
+Package xcolor Warning: Incompatible color definition on input line 33.
+
+
+Package xcolor Warning: Incompatible color definition on input line 33.
 
 File: images/INSALogo.pdf Graphic file (type pdf)
 <use images/INSALogo.pdf>
-Package pdftex.def Info: images/INSALogo.pdf  used on input line 23.
+Package pdftex.def Info: images/INSALogo.pdf  used on input line 33.
 (pdftex.def)             Requested size: 194.59126pt x 49.79231pt.
 File: images/rien.png Graphic file (type png)
 <use images/rien.png>
-Package pdftex.def Info: images/rien.png  used on input line 23.
+Package pdftex.def Info: images/rien.png  used on input line 33.
 (pdftex.def)             Requested size: 49.78433pt x 49.79231pt.
 Package epstopdf Info: Source file: <images/Volutes3Bottom.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 3195 bytes
 (epstopdf)             Output file: <images/Volutes3Bottom-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2763 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Volutes3Bottom-eps-converted-to.pdf images/Volutes3Bottom.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 <images/Volutes3Bottom-eps-converted-to.pdf, id=48, 484.81125pt x 105.39375pt>
 File: images/Volutes3Bottom-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Volutes3Bottom-eps-converted-to.pdf>
-Package pdftex.def Info: images/Volutes3Bottom-eps-converted-to.pdf  used on input line 23.
+Package pdftex.def Info: images/Volutes3Bottom-eps-converted-to.pdf  used on input line 33.
 (pdftex.def)             Requested size: 711.3189pt x 154.65353pt.
 [2 <./images/bandeau_cyan_top-eps-converted-to.pdf> <./images/INSALogoBlanc.pdf> <./images/Volutes3Bottom-eps-converted-to.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 56.
+Package epstopdf Info: Source file: <images/bandeau_cyan_top.eps>
+(epstopdf)                    date: 2022-10-30 10:26:28
+(epstopdf)                    size: 3487 bytes
+(epstopdf)             Output file: <images/bandeau_cyan_top-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-30 10:26:28
+(epstopdf)                    size: 2966 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/bandeau_cyan_top-eps-converted-to.pdf images/bandeau_cyan_top.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+File: images/bandeau_cyan_top-eps-converted-to.pdf Graphic file (type pdf)
+<use images/bandeau_cyan_top-eps-converted-to.pdf>
+Package pdftex.def Info: images/bandeau_cyan_top-eps-converted-to.pdf  used on input line 100.
+(pdftex.def)             Requested size: 600.35315pt x 133.55193pt.
+File: images/INSALogoBlanc.pdf Graphic file (type pdf)
+<use images/INSALogoBlanc.pdf>
+Package pdftex.def Info: images/INSALogoBlanc.pdf  used on input line 100.
+(pdftex.def)             Requested size: 142.26378pt x 37.2426pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 100.
+
+
+Package fancyhdr Warning: \headheight is too small (13.59999pt): 
+(fancyhdr)                Make it at least 27.06792pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.06792pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-13.46793pt}.
+
+
+Package xcolor Warning: Incompatible color definition on input line 100.
+
+File: images/INSALogo.pdf Graphic file (type pdf)
+<use images/INSALogo.pdf>
+Package pdftex.def Info: images/INSALogo.pdf  used on input line 100.
+(pdftex.def)             Requested size: 194.59126pt x 49.79231pt.
+File: images/rien.png Graphic file (type png)
+<use images/rien.png>
+Package pdftex.def Info: images/rien.png  used on input line 100.
+(pdftex.def)             Requested size: 49.78433pt x 49.79231pt.
+Package epstopdf Info: Source file: <images/Volutes3Bottom.eps>
+(epstopdf)                    date: 2022-10-30 10:26:28
+(epstopdf)                    size: 3195 bytes
+(epstopdf)             Output file: <images/Volutes3Bottom-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-30 10:26:28
+(epstopdf)                    size: 2763 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/Volutes3Bottom-eps-converted-to.pdf images/Volutes3Bottom.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+File: images/Volutes3Bottom-eps-converted-to.pdf Graphic file (type pdf)
+<use images/Volutes3Bottom-eps-converted-to.pdf>
+Package pdftex.def Info: images/Volutes3Bottom-eps-converted-to.pdf  used on input line 100.
+(pdftex.def)             Requested size: 711.3189pt x 154.65353pt.
+[3]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package epstopdf Info: Source file: <images/bandeau_cyan_top.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 3487 bytes
 (epstopdf)             Output file: <images/bandeau_cyan_top-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2966 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/bandeau_cyan_top-eps-converted-to.pdf images/bandeau_cyan_top.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: images/bandeau_cyan_top-eps-converted-to.pdf Graphic file (type pdf)
 <use images/bandeau_cyan_top-eps-converted-to.pdf>
-Package pdftex.def Info: images/bandeau_cyan_top-eps-converted-to.pdf  used on input line 63.
+Package pdftex.def Info: images/bandeau_cyan_top-eps-converted-to.pdf  used on input line 158.
 (pdftex.def)             Requested size: 600.35315pt x 133.55193pt.
 File: images/INSALogoBlanc.pdf Graphic file (type pdf)
 <use images/INSALogoBlanc.pdf>
-Package pdftex.def Info: images/INSALogoBlanc.pdf  used on input line 63.
+Package pdftex.def Info: images/INSALogoBlanc.pdf  used on input line 158.
 (pdftex.def)             Requested size: 142.26378pt x 37.2426pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 63.
+Package xcolor Warning: Incompatible color definition on input line 158.
+
+
+Package xcolor Warning: Incompatible color definition on input line 158.
 
 File: images/INSALogo.pdf Graphic file (type pdf)
 <use images/INSALogo.pdf>
-Package pdftex.def Info: images/INSALogo.pdf  used on input line 63.
+Package pdftex.def Info: images/INSALogo.pdf  used on input line 158.
 (pdftex.def)             Requested size: 194.59126pt x 49.79231pt.
 File: images/rien.png Graphic file (type png)
 <use images/rien.png>
-Package pdftex.def Info: images/rien.png  used on input line 63.
+Package pdftex.def Info: images/rien.png  used on input line 158.
 (pdftex.def)             Requested size: 49.78433pt x 49.79231pt.
 Package epstopdf Info: Source file: <images/Volutes3Bottom.eps>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 3195 bytes
 (epstopdf)             Output file: <images/Volutes3Bottom-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-10-14 18:00:41
+(epstopdf)                    date: 2022-10-30 10:26:28
 (epstopdf)                    size: 2763 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/Volutes3Bottom-eps-converted-to.pdf images/Volutes3Bottom.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: images/Volutes3Bottom-eps-converted-to.pdf Graphic file (type pdf)
 <use images/Volutes3Bottom-eps-converted-to.pdf>
-Package pdftex.def Info: images/Volutes3Bottom-eps-converted-to.pdf  used on input line 63.
+Package pdftex.def Info: images/Volutes3Bottom-eps-converted-to.pdf  used on input line 158.
 (pdftex.def)             Requested size: 711.3189pt x 154.65353pt.
-[3] (./documentReponse_grindel_imbert.aux)
+[4] (./documentReponse_grindel_imbert.aux)
 Package rerunfilecheck Info: File `documentReponse_grindel_imbert.out' has not changed.
 (rerunfilecheck)             Checksum: 846D726491E81963BC67484D9E991346;1005.
  ) 
 Here is how much of TeX's memory you used:
- 24349 strings out of 475071
- 450423 string characters out of 5778915
- 779595 words of memory out of 5000000
- 45301 multiletter control sequences out of 15000+600000
- 480218 words of font info for 55 fonts, out of 8000000 for 9000
+ 35107 strings out of 475071
+ 808806 string characters out of 5778915
+ 1265343 words of memory out of 5000000
+ 55905 multiletter control sequences out of 15000+600000
+ 481476 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,18n,91p,667b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,18n,91p,812b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on documentReponse_grindel_imbert.pdf (3 pages, 165312 bytes).
+Output written on documentReponse_grindel_imbert.pdf (4 pages, 171706 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

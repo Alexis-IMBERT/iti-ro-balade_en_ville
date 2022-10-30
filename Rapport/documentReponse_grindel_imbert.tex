@@ -1,10 +1,20 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage{classeRapport}
-\usepackage{tikz}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{positioning}
+\usetikzlibrary[topaths]
 \usepackage{algorithmeUTF8}
-
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
 \setlength{\headheight}{13.59999pt}
+
+\newcount\mycount
+
+\definecolor{qqwuqq}{rgb}{0,0,0}
+\definecolor{sudaqq}{rgb}{0,0,0}
 
 \begin{document}
 
@@ -18,7 +28,7 @@
 
 \Page{INSALogo}{rien.png} % logo de bas de page (en bas a droite)
 
-
+ 
 \tableofcontents
 \newpage
 \section{Etape 1 : Modéliser, définir le problème formel, associer une classe de complexité}
@@ -32,14 +42,97 @@
         \end{itemize}
         Si le métro est proche de d'un intersection on peut faire l'approximation que c'est le même noeud.
 
+        Représentation sagitale :
+
+        \begin{tikzpicture}[
+            scale=0.5,
+            roundnode/.style={circle, draw=red!60, fill=red!5, thick, minimum size=10mm},
+            addresse/.style={circle, draw=blue!60, fill=blue!5, thick, minimum size=10mm},
+        ]
+            %node
+            \node[roundnode] (1) {};
+            \node[roundnode] (9) [right=3 of 1] { };
+            \node[addresse] (10) [right=of 9] {8 rue Mauve};
+            \node[addresse] (14) [below=of 9] {10 rue Rouge};
+            \node[roundnode] (11) [below=of 10] { };
+            \node[roundnode] (12) [below=of 11] { };
+            \node[addresse] (13) [below=2.5 of 12] {22 rue Verte};
+            \node[roundnode] (2) [below=1.75 of 1] { };
+            \node[roundnode] (3) [below=of 2] { };
+            \node[roundnode] (16)[right=of 3] { };
+            \node[roundnode] (15)[right=of 2, left=of 14,above=of 16] { };
+            \node[roundnode] (4) [below=of 3] { };
+            \node[roundnode] (5) [below=1.1 of 4] { };
+            \node[roundnode] (17)[below=of 16, right=of 4] { };
+            \node[roundnode] (18)[below=of 17, right=of 5,left=3 of 13] { };
+            \node[roundnode] (7) [left=2 of 5] { };
+            \node[roundnode] (8) [below=of 7] {};
+            \node[addresse] (6) [below=1.5 of 18] {3 rue Marron};
+            \node[addresse] (depot) [below left=of 6,below=3 of 5] {Dépot};
+            
+            %lines
+            \draw (1) -- (9);
+            \draw (1) -- (2);
+            \draw (2) -- (3);
+            \draw (3) -- (4);
+            \draw (3) -- (16);
+            \draw (15) -- (16);
+            \draw (4) -- (5);
+            \draw (4) -- (17);
+            \draw (5) -- (7);
+            \draw (5) -- (18);
+            \draw (17) -- (18);
+            \draw (12) -- (13);
+            \draw (12) -- (11);
+            \draw (14) -- (11);
+            \draw (14) -- (15);
+            \draw (2) -- (15);
+            \draw (18) -- (13);
+            \draw (7) -- (8);
+            \draw (9) -- (10);
+            \draw (10.east) -- ++(1,0) -- ++(0,-9.5) -- (12.east);
+            \draw (8.east) -- ++(5,0) -- (depot.north);
+            \draw (8.south) -- ++(0,-1.4) -- (6.west);
+        \end{tikzpicture}
+
         Pour simplifier le graphe : on peut extraire un graphe de distance géodésique entre les adresses tel que : 
         \begin{itemize}
             \item Les noeuds représenteront les addresses
             \item Les arrêtes représenteront les chemins reliant ces addresses.
         \end{itemize}
-        \item Le graphe est non orienté. Pour le passage d'addresse en paramètre on peut passer les arrêtes sur lesquels sont ces arrêtes.
-        \item Représentation sagitale :
+        Représentation sagitale :
+        \begin{center}
+            \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+                \draw [line width=0.8pt,color=sudaqq] (0.30901699437494745,0.9510565162951535)-- (0.30901699437494745,0.9510565162951535);
+                \draw [line width=0.8pt,color=sudaqq] (-0.8090169943749473,0.5877852522924732)-- (0.30901699437494745,0.9510565162951535);
+                \draw [line width=0.8pt,color=sudaqq] (-0.8090169943749475,-0.587785252292473)-- (0.30901699437494745,0.9510565162951535);
+                \draw [line width=0.8pt,color=sudaqq] (0.30901699437494723,-0.9510565162951536)-- (0.30901699437494745,0.9510565162951535);
+                \draw [line width=0.8pt,color=sudaqq] (1,0)-- (0.30901699437494745,0.9510565162951535);
+                \draw [line width=0.8pt,color=sudaqq] (-0.8090169943749473,0.5877852522924732)-- (-0.8090169943749473,0.5877852522924732);
+                \draw [line width=0.8pt,color=sudaqq] (-0.8090169943749475,-0.587785252292473)-- (-0.8090169943749473,0.5877852522924732);
+                \draw [line width=0.8pt,color=sudaqq] (0.30901699437494723,-0.9510565162951536)-- (-0.8090169943749473,0.5877852522924732);
+                \draw [line width=0.8pt,color=sudaqq] (1,0)-- (-0.8090169943749473,0.5877852522924732);
+                \draw [line width=0.8pt,color=sudaqq] (-0.8090169943749475,-0.587785252292473)-- (-0.8090169943749475,-0.587785252292473);
+                \draw [line width=0.8pt,color=sudaqq] (0.30901699437494723,-0.9510565162951536)-- (-0.8090169943749475,-0.587785252292473);
+                \draw [line width=0.8pt,color=sudaqq] (1,0)-- (-0.8090169943749475,-0.587785252292473);
+                \draw [line width=0.8pt,color=sudaqq] (0.30901699437494723,-0.9510565162951536)-- (0.30901699437494723,-0.9510565162951536);
+                \draw [line width=0.8pt,color=sudaqq] (1,0)-- (0.30901699437494723,-0.9510565162951536);
+                \draw [line width=0.8pt,color=sudaqq] (1,0)-- (1,0);
+                \begin{scriptsize}
+                    \draw [fill=sudaqq] (0.30901699437494745,0.9510565162951535) circle (2.5pt);
+                    \draw [fill=sudaqq] (-0.8090169943749473,0.5877852522924732) circle (2.5pt);
+                    \draw [fill=sudaqq] (-0.8090169943749475,-0.587785252292473) circle (2.5pt);
+                    \draw [fill=sudaqq] (0.30901699437494723,-0.9510565162951536) circle (2.5pt);
+                    \draw [fill=sudaqq] (1,0) circle (2.5pt);
+                \end{scriptsize}
+            \end{tikzpicture}
+        \end{center}
     \end{itemize}
+        
+
+        \item Le graphe est non orienté. Pour le passage d'addresse en paramètre on peut passer les arrêtes sur lesquels sont ces arrêtes.
+
+        
     \item On a deux problèmes formel sous jacents.
     \begin{itemize}
         \item La recherche de plus cours chemin
@@ -59,5 +152,7 @@ Une première solution est le brut force : énumération de tout les chemins pos
 \paragraph{Algorithme}
 
 \section{Etape 3 : L'implémentation}
+% mettre le code dans le rapport ?
 \section{Etape 4 : L'adaptation}
+
 \end{document}
