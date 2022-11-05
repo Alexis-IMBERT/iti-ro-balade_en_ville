@@ -422,3 +422,4 @@ TSWLatexianTemp*
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/java,latex,git,visualstudiocode,emacs
+/Programme/class/

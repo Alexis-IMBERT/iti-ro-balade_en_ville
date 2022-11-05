@@ -1,0 +1,22 @@
+#ville
+19 s
+i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 depot marron rouge vert mauve
+i1 2 i2 i3
+i2 3 i1 mauve i4
+i3 3 i1 i4 i6
+i4 5 i3 rouge i7 i2 i12
+i5 2 rouge i8
+i6 3 i3 i7 i9
+i7 2 i4 i6
+i8 3 i5 mauve vert
+i9 3 i6 i10 i12
+i10 2 i9 i13
+i11 2 i12 i14
+i12 4 i11 i9 i13 i4
+i13 3 i10 i12 vert
+i14 3 i11 depot marron
+depot 1 i14
+marron 1 i14
+rouge 2 i4 i5
+vert 2 i8 i13
+mauve 2 i2 i8
