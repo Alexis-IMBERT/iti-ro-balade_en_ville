@@ -1,0 +1,133 @@
+On admet posséder les fonctions et procédure suivante :
+\begin{verbatim}
+ajouterSommetDansGraphe(E/S: Graphe graphe, E:Sommet sommet) :
+    Ajoute un sommet "sommet" au graphe "graphe"
+
+ajouterDansListe(E/S:Liste liste, E:Element element):
+    Ajoute l'element "element" dans la liste "liste" 
+
+retirerDansListe(E/S:Liste liste, E: Element element):
+    Retire l'element "element" de la liste "liste"
+
+ajouterArcEtiqueté( E/S : Graphe graphe,
+                    E:    Sommet source,
+                          Sommet destination,
+                          Etiquette etiquette)
+    Ajoute l'arc d'origine "source" et de destination "destination"
+    au graphe "graphe" avec l'etiquette "etiquette"
+\end{verbatim}
+On obtient le pseudo code suivant :
+\begin{verbatim}    
+programme(Graphe ville, liste<Sommet> POIs)-> Liste<Sommet> :
+    Role :
+        A partir du graphe "ville" et des points d'intérêt "POIs"
+        calcul le trajet optimal respectant les contraintes du sujet
+
+    Déclaration :
+        Graphe distances
+        Liste<Sommet> destinations
+        Liste<Sommet> parcouru
+        Dictionnaire<Sommet:distance> distance;
+    Début :        
+        Pour chaque addresse dans POIs :
+            ajouterSommetDansGraphe(distances, addresse)
+        Fin pour
+        
+        Pour chaque addresse dans POIs :
+            destination = POIs
+            ajouterDansListe(parcouru,addresse)
+            Pour chaque sommet dans parcouru :
+                retirerDansListe(destination, sommet)
+            distance = DijkstraVersPOIs(ville, source, destinations)
+            pour chaque sommet dans distance :
+                ajouterArcEtiqueté(distances, addresse, sommet, distance[sommet])
+        Fin pour
+
+        #Creation de tous les cycles :
+        /******************************* A COMPLETER ***************************/
+    Fin
+\end{verbatim}
+On explicite les autres fonctions et procédures non admise :
+\begin{verbatim}
+Fonction DijkstraVersPOIs(Graphe ville,Sommet source, Liste<Sommet> destinations)
+        ->Dictionnaire<Sommet:distance>
+    Précondition :
+        sommetPresent(ville, source)
+        pour tout sommet dans detinations :
+            sommetPresent(ville, destination)
+    Role :
+        Calcul les distances géodésique entre la source et 
+        toute les destinations "destinations"
+    
+    Déclaration :
+        Arbre<Sommet>                       arbreRecouvrant
+        Dictionnaire<Sommet, ReelPositif>   cout
+    
+    Début :
+        arbreRecouvrant,cout ← Dijkstra(ville,source)
+        retourne cout[sommet dans destinations]    
+    Fin
+\end{verbatim}
+On suppose posséder les fonctions et procédures suivantes pour Dijktra
+\begin{verbatim}
+fonction arbreInitial (s : Sommet) -> Arbre<Sommet>
+    qui crée un arbre possédant uniquement le noeud s
+
+fonction arcsEntreArbreEtGraphe (a : Arbre<Sommet>, g :
+                                Graphe<Sommet>,ReelPositif>)
+                                -> Liste<Liste<Sommet>>
+    qui retourne la liste des arcs (liste de deux sommets)
+    dont le premier sommet appartient à a et le second sommet appartient 
+    à g et n’appartient pas à a
+
+fonction arcMinimal (arcs : Liste<Liste<Sommet>>, cout : Dictionnaire<Sommet,
+                    ReelPositif>)
+                    -> Sommet, Sommet, ReelPositif
+    précondition
+        non estVide(arcs) et quelque soit i dans 1..longueur (arcs)
+            estPresent(cout,obtenirElement(obtenirElement(arcs,i),1))
+    qui retourne, parmi les arcs, l’arc (sommet source, sommet destination)
+    dont le sommet destination est le plus proche (au sens du dictionnaire 
+    de cout) des sommets de a ainsi que le coût supplémentaire pour l’atteindre
+
+procédure ajouterCommeFils (E/S :Arbre<Sommet> a,
+                            E: Sommet sommetPere, sommetFils) 
+    Précondition :
+        estPresent(a, sommetPere)
+    qui ajoute un nouveau noeud, à l’arbre a, contenant sommetFils 
+    qui sera fils du noeud contenant sommetPere
+\end{verbatim}
+Code de Dijkstra
+\begin{verbatim}
+    Fonction Dijkstra(Graphe graphe, Sommet source)-> Arbre<Sommet>, 
+                                    Dictionnaire<Sommet,ReelPositif> :
+    Précondition :
+        sommetPresent(graphe,source)
+    Role :
+        calcule les distance géodésique entre le sommet source 
+        et tout les autres sommets du graphe
+    Declaration :
+        Arbre<Sommet>                       arbreRecouvrant
+        Dictionnaire<Sommet, ReelPositif>   cout
+        Liste<Liste<Sommet>>                l
+        ReelPositif                         c
+        Sommet                              sommetDeA, sommetAAjouter
+    Début
+        arbreRecouvrant ← arbreInitial(s)
+        cout ← dictionnaire()
+        ajouter(cout,s,0)
+        l ← arcsEntreArbreEtGraphe(g,arbreRecouvrant)
+       
+        tant que non estVide(l) faire
+            sommetDeA,sommetAAjouter,c ← arcMinimal(l,cout)
+            ajouter(cout,
+            sommetAAjouter,
+            obtenirValeur(cout,sommetDeA)+c)
+            ajouterCommeFils(arbreRecouvrant,sommetDeA,sommetAAjouter)
+            l ← arcsEntreArbreEtGraphe(g,arbreRecouvrant)
+        fintantque
+       
+        retourner arbreRecouvrant, cout
+    Fin
+
+\end{verbatim}
