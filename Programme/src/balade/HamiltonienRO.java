@@ -25,15 +25,13 @@ public class HamiltonienRO {
 
 		longueurMin = Integer.MAX_VALUE;
 
-		int taille = graphe.taille();
-
 		Collection<Sommet> sommets = graphe.sommets();
 		sommets.remove( source );
 
 		List<Sommet> cycle = new LinkedList<>();
 		cycle.add( source );
 
-		resolution( graphe, cycle, source, source, taille, 0 );
+		resolution( graphe, cycle, source, source, 0 );
 
 		return plusCourtChemin;
 	}
@@ -45,27 +43,25 @@ public class HamiltonienRO {
 	 * @param cycle L'état actuel du cycle
 	 * @param sommetActuel Le sommet actuel
 	 * @param origine Le sommet d'origine
-	 * @param nbSommets Le nombre de sommets
 	 * @param longueurActuelle La longueur actuelle
 	 */
-	private static void resolution(GrapheMatrice graphe, List<Sommet> cycle, Sommet sommetActuel, Sommet origine, int nbSommets, int longueurActuelle){
+	private static void resolution(GrapheMatrice graphe, List<Sommet> cycle, Sommet sommetActuel, Sommet origine, int longueurActuelle){
 		// On s'arrête une fois que le sommet actuel est le dernier
-		if(cycle.size() == nbSommets){
+		if(cycle.size() == graphe.taille()){
 			// on ajoute la longueur entre le dernier sommet et l'origine
 			longueurActuelle += graphe.valeurArc( sommetActuel, origine );
 
-			// On retourne à l'origine
-			cycle.add(origine);
-
 			// On regarde si ce cycle est plus court que le précédent
 			if( longueurActuelle < longueurMin ){
+				// On retourne à l'origine
+				cycle.add(origine);
+
 				longueurMin = longueurActuelle;
 				plusCourtChemin = cycle.toArray(new Sommet[0]);
+
+				// On n'oublie pas de supprimer le dernier sommet (le retour à l'origine) pour la récursivité
+				cycle.remove( cycle.size()-1 );
 			}
-
-			// On n'oublie pas de supprimer le dernier sommet (le retour à l'origine) pour la récursivité
-			cycle.remove( cycle.size()-1 );
-
 			return;
 		}
 
@@ -89,10 +85,9 @@ public class HamiltonienRO {
 					// Ajout du voisin au cycle
 					cycle.add( voisin );
 					// Récursivité pour la suite du cycle
-					resolution( graphe, cycle, voisin, origine, nbSommets, longueurActuelle+distance );
+					resolution( graphe, cycle, voisin, origine, longueurActuelle+distance );
 					// On n'oublie pas de retirer le voisin du cycle pour passé au voisin suivant
 					cycle.remove( cycle.size()-1 );
-
 				}
 			}
 		}
